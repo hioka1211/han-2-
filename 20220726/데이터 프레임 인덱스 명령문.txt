@@ -1,0 +1,20 @@
+[] : 컬럼 접근
+행: 슬라이싱, 불릿 필터
+
+.loc[행,열]
+
+.iloc[행,열]
+
+Series의 문자 하나 하나 접근
+df['기관명'].str.문자명령
+** contains('문자), startswith('문자'), endswith('문자')
+
+
+정렬
+sort_index 인덱스로 정렬
+df.sort_values('열 이름)
+
+*index 변경
+df.set_index('열 이름')
+
+df.reset_index('열 이름')
