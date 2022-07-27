@@ -1,0 +1,6 @@
+[표현식 for문]
+[표현식 for문 if 조건]
+[참 표현식 if 조건 else 거짓일 때 표현식 for문]
+
+[표현식 for문 for문]
+예시: [i*j for i in range(2,9) for j in range(1,10)]
